@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login | Secure Login System</title>
+  <link rel="stylesheet" href="/style.css">
+  <script src="/script.js" defer></script>
+</head>
+<body>
+  <main class="auth-card">
+    <div class="shield">🔐</div>
+    <h1>Welcome Back</h1>
+    <p class="subtitle">Log in to your secure account</p>
+
+    <form id="loginForm">
+      <label for="loginEmail">Email</label>
+      <input id="loginEmail" name="email" type="email"
+        maxlength="254" required autocomplete="email"
+        placeholder="Enter your email">
+
+      <label for="loginPassword">Password</label>
+      <input id="loginPassword" name="password" type="password"
+        maxlength="72" required autocomplete="current-password"
+        placeholder="Enter your password">
+
+      <button type="submit">Log In</button>
+      <p id="loginMessage" class="message" role="status"></p>
+    </form>
+
+    <p class="switch-link">
+      Don't have an account? <a href="/register.html">Register here</a>
+    </p>
+  </main>
+</body>
+</html>

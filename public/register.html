@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create Account | Secure Login</title>
+  <link rel="stylesheet" href="/style.css">
+  <script src="/script.js" defer></script>
+</head>
+<body>
+  <main class="auth-card">
+    <div class="shield">🔐</div>
+    <h1>Create Account</h1>
+    <p class="subtitle">Create your secure account</p>
+
+    <form id="registerForm">
+      <label for="username">Username</label>
+      <input id="username" name="username" type="text"
+        minlength="3" maxlength="30" required
+        autocomplete="username" placeholder="Enter username">
+
+      <label for="registerEmail">Email</label>
+      <input id="registerEmail" name="email" type="email"
+        maxlength="254" required autocomplete="email"
+        placeholder="Enter email address">
+
+      <label for="registerPassword">Password</label>
+      <input id="registerPassword" name="password" type="password"
+        minlength="12" maxlength="72" required
+        autocomplete="new-password" placeholder="At least 12 characters">
+
+      <button type="submit">Create Account</button>
+      <p id="registerMessage" class="message" role="status"></p>
+    </form>
+
+    <p class="switch-link">
+      Already have an account? <a href="/">Log in</a>
+    </p>
+  </main>
+</body>
+</html>
