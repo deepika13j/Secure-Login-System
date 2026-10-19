@@ -24,11 +24,9 @@ A web-based authentication application developed using Node.js, Express.js, and 
 ## 📸 Screenshots
 
 ### Login Page
-
 ![Login Page](screenshots/login.png)
 
 ### Secure Dashboard
-
 ![Secure Dashboard](screenshots/dashboard.png)
 
 ## 📁 Project Structure
